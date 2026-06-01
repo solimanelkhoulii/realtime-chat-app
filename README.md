@@ -76,4 +76,4 @@ This project is licensed under the ISC License - see the `LICENSE` file for deta
 
 ## Contact
 
-For any inquiries, please contact [Your Name/Email/GitHub Profile].
+For any inquiries, please contact https://github.com/solimanelkhoulii .
