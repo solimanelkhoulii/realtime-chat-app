@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>2406 Chat Server</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #messages { height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; }
+        .message { margin: 5px 0; }
+        .blue { color: blue; }
+        .green { color: green; }
+        .black { color: black; }
+        #sendMessage { width: 70%; }
+        button { margin: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Chat Server</h1>
+    <div>
+        <input type="text" id="username" placeholder="Enter username">
+        <button id="connectBtn">Connect As</button>
+    </div>
+    <div>
+        <strong>Messages:</strong>
+        <div id="messages"></div>
+    </div>
+    <div>
+        <input type="text" id="sendMessage" placeholder="Type a message">
+        <button id="sendBtn">SEND</button>
+        <button id="clearBtn">CLEAR</button>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="registration.js"></script>
+    <script src="messaging.js"></script>
+</body>
+</html>
